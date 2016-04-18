@@ -9,6 +9,7 @@ matrix:
 script:
   - RAILS_ENV=test rake db:schema:load
   - bundle exec rake test
+  - echo $?
 
 notifications:
   email: false
