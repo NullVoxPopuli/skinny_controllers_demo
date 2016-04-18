@@ -1,0 +1,17 @@
+language: ruby
+rvm:
+  - 2.3.0
+  - ruby-head
+matrix:
+  allow_failures:
+    - rvm: ruby-head
+
+script:
+  - RAILS_ENV=test rake db:schema:load
+  - bundle exec rake test
+
+notifications:
+  email: false
+
+# use new travis infrastructure
+sudo: false

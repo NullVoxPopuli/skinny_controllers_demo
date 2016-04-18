@@ -1,4 +1,5 @@
 # skinny_controllers demo
+[![Build Status](https://travis-ci.org/NullVoxPopuli/skinny_controllers_demo.svg?branch=master)](https://travis-ci.org/NullVoxPopuli/skinny_controllers_demo)
 
 This is a walkthrough on setting up a brand new project and demonstrating
 how skinny_controllers are used
@@ -55,6 +56,8 @@ gem 'skinny_controllers'
 ```
 
 then run `bundle` in the terminal.
+
+## Simplest skinny_controllers setup
 
 make the changes to the [basic_model as in this diff](https://github.com/NullVoxPopuli/skinny_controllers_demo/commit/fe6ec44829605f81e081e56e519f32d297448178)
 
