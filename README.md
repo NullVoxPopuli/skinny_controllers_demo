@@ -49,7 +49,6 @@ end
 ```
 
 
-
 Add to the gemfile:
 ```ruby
 gem 'skinny_controllers'
@@ -57,8 +56,6 @@ gem 'skinny_controllers'
 
 then run `bundle` in the terminal.
 
-Following the [devise](https://github.com/plataformatec/devise#getting-started) wiki,
-```
-rails generate devise:install
-rails generate devise User
-```
+make the changes to the [basic_model as in this diff](https://github.com/NullVoxPopuli/skinny_controllers_demo/commit/fe6ec44829605f81e081e56e519f32d297448178)
+
+and then `rake test` will show you still passing tests.
