@@ -8,7 +8,7 @@ matrix:
 
 script:
   - RAILS_ENV=test rake db:schema:load
-  - bundle exec rake test
+  - bundle exec m
   - echo $?
 
 notifications:
